@@ -15,6 +15,7 @@ return [
     'array'           => 'The :attribute field must be an array.',
     'ascii'           => 'The :attribute field must only contain single-byte alphanumeric characters and symbols.',
     'attributes'      => [],
+    'base64'          => 'The :attribute field must be a valid Base64 string.',
     'before'          => 'The :attribute field must be a date before :date.',
     'before_or_equal' => 'The :attribute field must be a date before or equal to :date.',
     'between'         => [
@@ -48,6 +49,7 @@ return [
     'doesnt_end_with'   => 'The :attribute field must not end with one of the following: :values.',
     'doesnt_start_with' => 'The :attribute field must not start with one of the following: :values.',
     'email'             => 'The :attribute field must be a valid email address.',
+    'encoding'          => 'The :attribute field must be encoded in :encoding.',
     'ends_with'         => 'The :attribute field must end with one of the following: :values.',
     'enum'              => 'The selected :attribute is invalid.',
     'exists'            => 'The selected :attribute is invalid.',
